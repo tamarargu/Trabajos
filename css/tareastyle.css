@@ -1,0 +1,44 @@
+* {
+	padding: 0; 
+	margin: 0;
+}
+}
+
+#container{
+	display: inline-block;
+	
+}
+
+.uno, .dos, .tres, .cuatro,
+.cinco,.seis, .siete {
+	width: 14.25%;
+	height: 637px;
+	float: left;
+}
+
+.uno {
+	background-color: white;
+}
+
+.dos {
+	background-color: yellow;	
+} 
+
+.tres {
+	background: #28DCD6;
+}
+
+.cuatro {
+	background: green;
+
+}
+.cinco {
+	background: #FA0FD1;
+}
+.seis {
+	background: red;
+
+}
+.siete {
+	background: blue;
+}
