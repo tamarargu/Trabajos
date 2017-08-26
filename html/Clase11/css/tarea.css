@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	padding: 7% 33%;
+	height: 447px;
+	background: url(https://i.pinimg.com/564x/fb/0e/5c/fb0e5c9a2015ace4d7f1d57d87a967e1.jpg);
+}
+.verde{
+	width: 150px;
+	height: 150px;
+	background-color:#5EE895; 
+}
+.celeste {
+	width: 150px;
+	height: 150px;
+	background-color:#70C4B1;
+	}
+
+#iz, #der, #cen {
+	float: left;
+}
+#rhodo, #monstera{
+	padding: 30px 20px;
+}
+#rhodo, #monstera:hover{
+	overflow: visible;
+
+}
