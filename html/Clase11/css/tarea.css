@@ -6,7 +6,7 @@
 #container {
 	padding: 7% 33%;
 	height: 447px;
-	background: url(https://i.pinimg.com/564x/fb/0e/5c/fb0e5c9a2015ace4d7f1d57d87a967e1.jpg);
+	background: url(https://i.pinimg.com/564x/20/85/c2/2085c2ef353a238ecb041ddfb516035b.jpg);
 }
 .verde{
 	width: 150px;
@@ -22,10 +22,13 @@
 #iz, #der, #cen {
 	float: left;
 }
-#rhodo, #monstera{
-	padding: 30px 20px;
+#monstera{
+	padding:30px 0 0 30px;
 }
-#rhodo, #monstera:hover{
-	overflow: visible;
+#rhodo{
+	padding:30px 0 0 10px
+}
 
+div#pattern:hover, div#pattern:active{
+	background-color:url(https://i.pinimg.com/564x/d1/41/71/d14171aaa5ca9f46c6b24c0fa0f490ae.jpg);
 }

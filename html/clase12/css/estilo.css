@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	display: inline-block;
+}
+
+div #azul{
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 50% ;
+}
+
+div #verde{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border-radius: 50% ;
+}
+
+div #rojo{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 50% ;
+}
+
+/*Styles
+solid
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset*/
