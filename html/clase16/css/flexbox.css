@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.contenedor {
+	width: 700px;
+	height: 500px;
+	background: #212d40;
+	display: flex; 
+	/* establece la disposicion y 
+	el sentido de los elementos */
+	/*flex-direction:row;*/
+	/*determina la existencia o de 
+	de linea*/
+	/*flex-wrap:wrap;*/
+	/*son las lineas anteriores juntas*/
+	flex-flow: row nowrap;/*valores por def*/
+	/*establece la alineacion en el 
+	eje X y manejo del espacio*/
+	/*justify-content: flex-end;*/
+	/*justify-content: center*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+	/*alineacion eje Y*/
+	align-items: baseline;
+}
+
+.caja {
+	width: 100px;
+	height: 100px;
+	background:#f79256;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+
