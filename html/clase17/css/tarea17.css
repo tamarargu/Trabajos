@@ -16,6 +16,7 @@ header{
 }
 
 header .menu a{
+	margin: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20pt;
 	color:black;

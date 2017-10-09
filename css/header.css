@@ -1,0 +1,36 @@
+*{
+margin:0px;
+padding:1px;
+box-sizing: border-box;
+}
+body{
+height: 100%;
+margin: 0;
+background-image:url(../img/fondo2.jpg);
+font-family: 'Sancreek', cursive;
+background-attachment: fixed;
+background-size: cover;
+}
+header nav.menu {
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+header nav.menu .menu_{
+	text-align: center;
+}
+header nav.menu .menu_ a,p{
+    margin: 15px 40px;
+    font-size: 20pt;
+    display: inline-block;
+	color: white;
+	text-decoration: none;	
+}
+
+header nav.menu .ham{
+        position: fixed;
+        margin: 5px 100px;
+}       
